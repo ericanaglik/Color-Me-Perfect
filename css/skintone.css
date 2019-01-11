@@ -4,6 +4,19 @@
           box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;	
+}
+
+.logo {
+  position: absolute;
+	left: 80px;
+	top: 30px;
+	margin-left: -50px;
+}
+
 .container {
   display:flex;
   justify-content:center;
@@ -14,20 +27,20 @@
   height:100vh;
 }
 
+
+
 .gradient-white-black {
    background-image: radial-gradient(grey, black);
 }
+
+
 
 html {
   height: 100%;
   width:100%;
  
 }
-body {
-  margin: 0;
-  padding: 0;
-  width:100%;	
-}
+
 .info p {
   text-align:center;
   color: #999;
@@ -40,12 +53,18 @@ body {
 .info i {
   color:#FF8C94;
 }
+
+.sp-logo {
+  margin:0;
+  padding:0;
+}
+
 a {
-  text-decoration : inherit
+  text-decoration : inherit;
 }
 h1 {
   font-family: Raleway;
-  padding: 30px;
+  
   font-size: 50px;
   text-align: center;
   color: #fff;
