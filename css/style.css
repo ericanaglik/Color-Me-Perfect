@@ -127,16 +127,21 @@ h1.main, p.demos {
 	transform: scale(5);
 }
 .sp-circle-link {
-	position: absolute;
-	left: 50%;
+	/* position: absolute;
+    left: auto;
+    
+	bottom: 300px;
+    margin: auto;
+    margin-left: 41%; */
+    position: absolute;
+	left: 45%;
 	bottom: 100px;
 	margin-left: -50px;
 	text-align: center;
-	line-height: 100px;
-	width: 100px;
-	height: 100px;
-	background: #fff;
-	color: #3f1616;
+	width: 300px;
+    height: 200px;
+    background: transparent;
+	color: #FD6983;
 	font-size: 25px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -152,7 +157,7 @@ h1.main, p.demos {
 	transform: scale(1) rotate(0deg);
 }
 .sp-circle-link:hover {
-	background: #85373b;
+	background: transparent;
 	color: #fff;
 }
 /**/
