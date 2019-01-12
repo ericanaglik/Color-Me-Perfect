@@ -14,7 +14,14 @@ body {
   position: absolute;
 	left: 80px;
 	top: 30px;
-	margin-left: -50px;
+	margin-left: -20px;
+}
+
+.lipsticks {
+  position: absolute;
+	right: 0px;
+	top: 160px;
+	margin-left: -20px;
 }
 
 .container {
@@ -68,7 +75,7 @@ h1 {
   font-size: 50px;
   text-align: center;
   color: #fff;
-  text-shadow: 3px 4px 0px #000;
+  text-shadow: 3px 4px 2px #000;
   margin:50px 0px 0px 0px
 }
 
@@ -77,15 +84,15 @@ h2 {
   font-size: 30px;
   text-align: center;
   color: #000;
-  text-shadow: 1px 1px 0px #fff;
+  text-shadow: 2px 2px 2px #fff;
   margin:50px 0px 0px 0px
 }
 
 
 h3 {
   font-family: Quicksand;
-  color:#000;
-  text-shadow: 1px 1px 0px #9B9B9B;
+  color:#fff;
+  text-shadow: 2px 2px 10px #000;
   font-size: 15px;
 }
 hr {
@@ -96,6 +103,26 @@ hr {
   position:relative;
   bottom:25px;
 }
+
+.unsure {
+  font-family: Raleway;
+  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+  color:#000;
+  text-shadow: 1px 1px 5px #fff;
+  margin:50px 0px 0px 0px
+}
+
+.light{
+  font-family: Quicksand;
+  font-size: 18px;
+  text-align: center;
+  
+  color:#000;
+  text-shadow: 0px 0px 30px #fff;
+}
+
 p {
   color: #fff;
 }
