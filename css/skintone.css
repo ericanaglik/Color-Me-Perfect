@@ -24,6 +24,13 @@ body {
 	margin-left: -20px;
 }
 
+.smudges {
+  position: absolute;
+	left: 0px;
+	top: 160px;
+	margin-left: -20px;
+}
+
 .container {
   display:flex;
   justify-content:center;
