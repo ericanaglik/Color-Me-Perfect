@@ -171,3 +171,95 @@ p {
 .cube div {
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+.bg7 {
+  
+  background-image:url("http://i63.tinypic.com/aetq85.png"); 
+  background-size: cover;
+  background-size: 200px 200px; 
+}
+
+
+.bg8 {
+  background-image:url("http://i64.tinypic.com/8yxa1e.jpg"); 
+  background-size: cover;
+  background-size: 200px 200px;
+}
+
+.bg9 {
+  background-image:url("http://i67.tinypic.com/mtvv9u.jpg"); 
+  background-size: cover;
+  background-size: 200px 200px; 
+}
+
+.bg10 {
+    background-image:url("http://i67.tinypic.com/2mcjas7.png"); 
+    background-size: cover;
+    background-size: 200px 200px; 
+  }
+
+
+/* ---------- ANIMATION -------------------------*/
+
+
+.cube figure {
+  margin: 0px;
+  padding: 0px;
+} */
+
+.cube figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.cube-caption1 { 
+  font-weight:300;
+  position: absolute; 
+  z-index: 1;
+  background: #DDD1C7;
+  color: #fff;
+  text-align: center;
+}
+
+.cube-caption2 { 
+  font-weight:300;
+  position: absolute; 
+  z-index: 1;
+  background: #E2B7AB;
+  color: #fff;
+  text-align: center;
+}
+
+.cube-caption3 { 
+  font-weight:300;
+  position: absolute; 
+  z-index: 1;
+  background: #C79A81;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.caption-bottom { 
+  left: 0;
+  right: 0;
+  bottom: -100%; 
+  height: 35%; 
+  -webkit-transition: bottom .3s linear;
+  transition: bottom .3s linear;
+}
+
+.cube:hover { 
+    box-shadow: 0px 0px 20px #fff;
+}
