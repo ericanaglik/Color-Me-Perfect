@@ -257,3 +257,8 @@ p {
 .cube:hover .caption-bottom { 
   bottom: 0;
 }
+
+h3:hover {
+  color: #000;
+  text-shadow: #fff 0px 0px 10px;
+}

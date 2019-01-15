@@ -184,26 +184,26 @@ p {
 
 .bg7 {
   
-  background-image:url("http://i65.tinypic.com/f0nbj7.png"); 
+  background-image:url("http://i67.tinypic.com/n9cvl.png"); 
   background-size: cover;
   background-size: 200px 143px; 
 }
 
 
 .bg8 {
-  background-image:url("http://i64.tinypic.com/28thv0l.png"); 
+  background-image:url("http://i68.tinypic.com/mmermu.png"); 
   background-size: cover;
   background-size: 200px 143px;
 }
 
 .bg9 {
-  background-image:url("http://i68.tinypic.com/hsuo38.png"); 
+  background-image:url("http://i66.tinypic.com/ei05g3.png"); 
   background-size: cover;
   background-size: 200px 143px; 
 }
 
 .bg10 {
-    background-image:url("http://i64.tinypic.com/auw4r4.png"); 
+    background-image:url("http://i68.tinypic.com/f07nsg.png"); 
     background-size: cover;
     background-size: 200px 143px; 
   }
@@ -213,52 +213,52 @@ p {
 
 
 .cube figure {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  .cube figure img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .cube-caption { 
-    font-weight:300;
-    position: absolute; 
-    z-index: 1;
-    background: transparent;
-    color: #fff;
-    text-align: center;
-  }
-  
-  
-  .caption-top { 
-    left: 0; 
-    top: -100%;
-    right: 0;
-    height: 35%;
-    -webkit-transition: top .3s linear; 
-    transition: top .3s linear;
-  }
-  
-  .cube:hover .caption-top { 
-    top: 0;
-  }
-  
-  .caption-bottom { 
-    left: 0;
-    right: 0;
-    bottom: -100%; 
-    height: 35%; 
-    -webkit-transition: bottom .3s linear;
-    transition: bottom .3s linear;
-  }
-  
-  .cube:hover .caption-bottom { 
-    bottom: 0;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  h3:hover {
-    color: #000;
-    text-shadow: #fff 0px 0px 10px;
-  }
+.cube figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.cube-caption { 
+  font-weight:300;
+  position: absolute; 
+  z-index: 1;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+
+.caption-top { 
+  left: 0; 
+  top: -100%;
+  right: 0;
+  height: 35%;
+  -webkit-transition: top .3s linear; 
+  transition: top .3s linear;
+}
+
+.cube:hover .caption-top { 
+  top: 0;
+}
+
+.caption-bottom { 
+  left: 0;
+  right: 0;
+  bottom: -100%; 
+  height: 35%; 
+  -webkit-transition: bottom .3s linear;
+  transition: bottom .3s linear;
+}
+
+.cube:hover .caption-bottom { 
+  bottom: 0;
+}
+
+h3:hover {
+  color: #000;
+  text-shadow: #fff 0px 0px 10px;
+}
