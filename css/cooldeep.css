@@ -231,23 +231,6 @@ p {
     text-align: center;
   }
   
-  .cube-caption2 { 
-    font-weight:300;
-    position: absolute; 
-    z-index: 1;
-    background: #E2B7AB;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .cube-caption3 { 
-    font-weight:300;
-    position: absolute; 
-    z-index: 1;
-    background: #C79A81;
-    color: #fff;
-    text-align: center;
-  }
   
   .caption-top { 
     left: 0; 
