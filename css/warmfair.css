@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway: 100');
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;	
+}
+
+.logo {
+  position: absolute;
+	left: 80px;
+	top: 30px;
+	margin-left: -20px;
+}
+
+.lipsticks {
+  position: absolute;
+	right: 0px;
+	top: 180px;
+	margin-left: -20px;
+}
+
+.smudges {
+  position: absolute;
+	left: 0px;
+	top: 180px;
+	margin-left: -20px;
+}
+
+
+
+.container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width:100vw;
+  max-width:100%;
+  height:100vh;
+}
+
+
+
+.gradient-white-black {
+   background-image: radial-gradient(grey, black);
+}
+
+
+
+html {
+  height: 100%;
+  width:100%;
+ 
+}
+
+.info p {
+  text-align:center;
+  color: #999;
+  text-transform:none;
+  font-weight:600;
+  font-size:15px;
+  margin-top:2px
+}
+
+.info i {
+  color:#FF8C94;
+}
+
+.sp-logo {
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration : inherit;
+}
+h1 {
+  
+  
+  /* font-size: 50px; */
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 4px 2px #000;
+  margin:50px 0px 0px 0px
+}
+
+.choose {
+    font-family: Raleway;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 4px 2px #000;
+    margin:50px 0px 0px 0px
+}
+
+h2 {
+  font-family: Raleway;
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+  text-shadow: 2px 2px 2px #fff;
+  margin:50px 0px 0px 0px
+}
+
+
+h3 {
+  font-family: Quicksand;
+  color:#fff;
+  text-shadow: 2px 2px 10px #000;
+  font-size: 15px;
+}
+hr {
+  z-index:-1;
+  border-bottom:0;
+  border:1px solid #666;
+  border-radius:10px;
+  position:relative;
+  bottom:25px;
+}
+
+.unsure {
+  font-family: Raleway;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  color:#000;
+  text-shadow: 1px 1px 5px #fff;
+  margin:50px 0px 0px 0px
+}
+
+.wrong{
+  font-family: Quicksand;
+  font-size: 16px;
+  text-align: center;
+  
+  color:rgb(138, 138, 138);
+  text-shadow: 0px 0px 30px #000;
+}
+
+
+p {
+  color: #fff;
+}
+
+.clearfix {
+  clear: both;
+}
+.content {
+  width:100%; 
+  height: auto;
+  overflow: hidden;
+}
+.dashboard {
+  max-width:1080px; 
+  margin:90px auto;
+}
+.cube {
+  position: relative;
+  width: 200px; 
+  height: 143px; 
+  background: transparent;
+  /* box-shadow: 0px 0px 10px #000; */
+  float:left;
+  margin:10px 10px 80px 10px;
+  overflow: hidden;
+}
+.cube div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+.bg7 {
+  
+  background-image:url("http://i68.tinypic.com/nlv3f5.png"); 
+  background-size: cover;
+  background-size: 200px 143px; 
+}
+
+
+.bg8 {
+  background-image:url("http://i63.tinypic.com/otpvfc.png"); 
+  background-size: cover;
+  background-size: 200px 143px;
+}
+
+.bg9 {
+  background-image:url("http://i68.tinypic.com/k12fd.jpg"); 
+  background-size: cover;
+  background-size: 200px 143px; 
+}
+
+.bg10 {
+    background-image:url("http://i64.tinypic.com/28sa90k.png"); 
+    background-size: cover;
+    background-size: 200px 143px; 
+  }
+
+
+/* ---------- ANIMATION -------------------------*/
+
+
+.cube figure {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cube figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.cube-caption { 
+  font-weight:300;
+  position: absolute; 
+  z-index: 1;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+
+.caption-top { 
+  left: 0; 
+  top: -100%;
+  right: 0;
+  height: 35%;
+  -webkit-transition: top .3s linear; 
+  transition: top .3s linear;
+}
+
+.cube:hover .caption-top { 
+  top: 0;
+}
+
+.caption-bottom { 
+  left: 0;
+  right: 0;
+  bottom: -100%; 
+  height: 35%; 
+  -webkit-transition: bottom .3s linear;
+  transition: bottom .3s linear;
+}
+
+.cube:hover .caption-bottom { 
+  bottom: 0;
+}
+
+h3:hover {
+  color: #000;
+  text-shadow: #fff 0px 0px 10px;
+}
